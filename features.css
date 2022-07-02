@@ -1,0 +1,476 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 500;
+}
+
+body section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+}
+
+body section .col_top {
+    width: 40%;
+    font-weight: 500;
+    padding: 1em;
+    margin: auto;
+}
+
+body section .col_top h1{
+    color: hsl(229, 31%, 21%);
+    font-size: 2em;
+}
+body section .col_top p {
+    color: hsl(229, 8%, 60%);
+}
+
+.col_bottom {
+    width: 100%;
+    text-align: center;
+}
+
+.col_bottom .features_tab_nav_section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: center;
+    margin: 0px auto 3.5em auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.col_bottom .features_tab_nav_section .features_tab_row_view div {
+    padding: 1em;
+    color: hsl(229, 8%, 60%);
+    text-align: center;
+    width: 33%;
+    border: 0px solid white;
+}
+@media screen and (min-width: 376px) {
+    .col_bottom .features_tab_nav_section .features_tab_row_view div:nth-child(1) {
+        border-bottom: 3px solid hsl(0, 94%, 66%);
+        border-radius: 1.5px;
+        color: hsl(229, 31%, 21%);
+    }
+    .col_bottom .features_tab_row_view {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        border-bottom: 1px solid hsl(229, 8%, 60%);
+    }
+}
+
+
+.col_bottom .features_tab_nav_section .features_tab_row_view div:hover {
+    color: hsl(0, 94%, 66%);
+    font-size: 18px;
+    font-family: Rubik;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.col_bottom .switchable_components .simple_bookmarking {
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.col_bottom .switchable_components .simple_bookmarking .simple_bookmarking_img {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.simple_bookmarking_img .svg_background {
+    position: relative;
+    width: 80%;
+    height: 90%;
+    left: 0;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: hsl(231, 69%, 60%);
+}
+.simple_bookmarking_img .svg_background svg {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -1.5em;
+    left: 20%;
+}
+
+.switchable_components .simple_bookmarking .simple_bookmarking_txt {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0 0 0 5em;
+}
+.switchable_components .simple_bookmarking .simple_bookmarking_txt h1 {
+    color: hsl(229, 31%, 21%);
+    font-size: 2em;
+    font-weight: 500;
+}
+.switchable_components .simple_bookmarking .simple_bookmarking_txt p {
+    color: hsl(229, 8%, 60%);
+    font-weight: 500;
+    font-size: 18px;
+}
+.switchable_components .simple_bookmarking .simple_bookmarking_txt button {
+    padding: 1em 1.5em;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 500;
+    /* font-size: 18px; */
+    margin-top: 20px;
+    background-color: hsl(231, 69%, 60%);
+    box-shadow: 2px 3px 5px #aaa;
+}
+
+#switchable_components_one {
+    display: inline-flex;
+}
+#switchable_components_two {
+    display: none;
+}
+#switchable_components_three {
+    display: none;
+}
+
+/* ---------------------------------------
+    media query for desktop with 
+    max width of 375
+/* For mobile design... Width of 375px
+-------------------------------------- */
+
+@media (min-width: 681px) and (max-width: 1000px) {
+    body section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+    }
+    
+    body section .col_top {
+        width: 80%;
+        font-weight: 500;
+        padding: 1em;
+        margin: auto;
+    }
+    
+    body section .col_top h1{
+        color: hsl(229, 31%, 21%);
+        font-size: 2em;
+    }
+    body section .col_top p {
+        color: hsl(229, 8%, 60%);
+    }
+    
+    .col_bottom {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .col_bottom .features_tab_nav_section {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+        align-items: center;
+        margin: 0px auto 3.5em auto;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .col_bottom .features_tab_nav_section .features_tab_row_view div {
+        padding: 1em;
+        color: hsl(229, 8%, 60%);
+        text-align: center;
+        font-size: 15px;
+        width: 33%;
+        border: 0px solid white;
+    }
+    @media screen and (min-width: 376px) {
+        .col_bottom .features_tab_nav_section .features_tab_row_view div:nth-child(1) {
+            border-bottom: 3px solid hsl(0, 94%, 66%);
+            border-radius: 1.5px;
+            color: hsl(229, 31%, 21%);
+        }
+        .col_bottom .features_tab_row_view {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            border-bottom: 1px solid hsl(229, 8%, 60%);
+        }
+    }
+    
+    
+    .col_bottom .features_tab_nav_section .features_tab_row_view div:hover {
+        color: hsl(0, 94%, 66%);
+        font-size: 15px;
+        font-family: Rubik;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    .col_bottom .switchable_components .simple_bookmarking {
+        position: relative;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 350px;
+    }
+    
+    .col_bottom .switchable_components .simple_bookmarking .simple_bookmarking_img {
+        position: relative;
+        width: 50%;
+        height: 100%;
+    }
+    .simple_bookmarking_img .svg_background {
+        position: relative;
+        width: 80%;
+        height: 80%;
+        left: 0;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        background-color: hsl(231, 69%, 60%);
+    }
+    .simple_bookmarking_img .svg_background svg {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: -1.5em;
+        left: 20%;
+    }
+    
+    .switchable_components .simple_bookmarking .simple_bookmarking_txt {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        text-align: left;
+        box-sizing: border-box;
+        padding: 0 0 0 1em;
+    }
+    .switchable_components .simple_bookmarking .simple_bookmarking_txt h1 {
+        color: hsl(229, 31%, 21%);
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .switchable_components .simple_bookmarking .simple_bookmarking_txt p {
+        color: hsl(229, 8%, 60%);
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .switchable_components .simple_bookmarking .simple_bookmarking_txt button {
+        padding: 1em 1.5em;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        font-weight: 500;
+        /* font-size: 18px; */
+        margin-top: 20px;
+        background-color: hsl(231, 69%, 60%);
+        box-shadow: 2px 3px 5px #aaa;
+    }
+    
+    #switchable_components_one {
+        display: inline-flex;
+    }
+    #switchable_components_two {
+        display: none;
+    }
+    #switchable_components_three {
+        display: none;
+    }
+}
+
+
+/* ---------------------------------------
+    media query for phones with 
+    max width of 375
+/* For mobile design... Width of 375px
+-------------------------------------- */
+
+@media (min-width: 200px) and (max-width: 680px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        font-family: Rubik;
+        font-weight: 500;
+    }
+    
+    body section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+        width: 100%;
+    }
+    
+    body section .col_top {
+        width: 95%;
+        font-weight: 400;
+        padding: 1em;
+        line-height: 1.5em;
+        box-sizing: border-box;
+        margin: auto;
+        text-align: center;
+    }
+    
+    body section .col_top h1{
+        color: hsl(229, 31%, 21%);
+        font-size: 1.5em;
+    }
+    body section .col_top p {
+        color: hsl(229, 8%, 60%);
+        font-weight: 400;
+    }
+    
+    .col_bottom {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .col_bottom .features_tab_nav_section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+        margin: 0px auto 3.5em auto;
+        text-align: center;
+    }
+    
+    .col_bottom .features_tab_row_view {
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    .col_bottom .features_tab_nav_section .features_tab_row_view div {
+        padding: 1em;
+        width: 70%;
+        position: relative;
+        margin: auto;
+        text-align: center;
+        color: hsl(229, 8%, 60%);
+        border: 0px solid white;
+        border-top: 1px solid hsl(229, 8%, 60%);
+        border-bottom: 1px solid hsl(229, 8%, 60%);
+    }
+    
+    .col_bottom .features_tab_nav_section .features_tab_row_view div:nth-child(1) {
+        border-bottom: 3px solid hsl(0, 94%, 66%);
+        border-radius: 1.5px;
+        color: hsl(229, 31%, 21%);
+    }
+    
+    /* .col_bottom .features_tab_nav_section .features_tab_row_view div::after {
+        content: '';
+        position: absolute;
+        height: 3px;
+        bottom: 0;
+        /* left: 25%;
+        width: 60%;
+        background-color: hsl(0, 94%, 66%);
+    } */
+
+    .col_bottom .features_tab_nav_section .features_tab_row_view div:hover {
+        color: hsl(0, 94%, 66%);
+        font-size: 18px;
+        font-family: Rubik;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    .col_bottom .switchable_components .simple_bookmarking {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+    }
+    
+    .col_bottom .switchable_components .simple_bookmarking .simple_bookmarking_img {
+        position: relative;
+        width: 100%;
+        height: 35%;
+        left: 0;
+    }
+    .simple_bookmarking_img .svg_background {
+        position: relative;
+        width: 85%;
+        left: 0;
+        height: 100%;
+        /* top: 10px; */
+        border-top-right-radius: 35%;
+        border-bottom-right-radius: 35%;
+        background-color: hsl(231, 69%, 60%);
+    }
+    .simple_bookmarking_img .svg_background svg {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: -2em;
+        left: 15%;
+    }
+    
+    .switchable_components .simple_bookmarking .simple_bookmarking_txt {
+        position: relative;
+        width: 100%;
+        height: 80%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 1.5em;
+    }
+    .switchable_components .simple_bookmarking .simple_bookmarking_txt h1 {
+        color: hsl(229, 31%, 21%);
+        font-weight: 500;
+    }
+    .switchable_components .simple_bookmarking .simple_bookmarking_txt p {
+        color: hsl(229, 8%, 60%);
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .switchable_components .simple_bookmarking .simple_bookmarking_txt button {
+        display: none;
+    }
+    
+    #switchable_components_one {
+        display: inline-flex;
+    }
+    #switchable_components_two {
+        display: none;
+    }
+    #switchable_components_three {
+        display: none;
+    }
+}

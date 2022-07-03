@@ -8,11 +8,11 @@
     font-weight: 400;
 }
 
-section {
+sECtion {
     padding: 100px 50px;
 }
 
-.btn {
+.bTN {
     border: 2px solid hsl(0, 94%, 66%);
     border-radius: 5px;
     width: 200px;
@@ -25,11 +25,11 @@ section {
     cursor: pointer;
 }
 
-.hamburger-icon{
+.hAMburger-icon{
     position: absolute;
 }
 
-nav {
+nAV {
     width: 100%;
     padding: 25px 200px;
     color: hsl(229, 31%, 21%);
@@ -40,32 +40,32 @@ nav {
     margin-left: 0px;
 }
 
-.navbar{
+.nAVbar{
     display: flex;
     align-items: center;
     max-width: 60rem;
     justify-content: space-between;
 }
 
-.nav-toggle{
+.nAV-toggle{
     display: none;
     position: absolute;
     top: 1.3rem;
     right: 2rem;
 }
 
-.hidden{
+.hIDden{
     display: none;
 }
 
-nav .navbar ul {
+nAV .navbar ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
 
-nav .navbar ul li {
+nAV .navbar ul li {
     list-style: none;
     padding: 10px;
     text-transform: uppercase;
@@ -74,31 +74,31 @@ nav .navbar ul li {
     font-size: small;
 }
 
-nav .navbar ul li:hover{
+nAV .navbar ul li:hover{
     color: hsl(0, 94%, 66%);
     cursor: pointer;
 }
 
-.menu-icon{
+.mENu-icon{
     display: none;
     cursor: pointer;
     width: 25px;
 }
 
-.login-btn{
+.lOGin-btn{
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.login-btn:hover {
+.lOGin-btn:hover {
     color: hsl(0, 94%, 66%);
     background: #ffff;
     width: 200px;
 }
 
-main{
+mAIn{
     position: absolute;
     width: 100%;
     align-items: center;
@@ -110,7 +110,7 @@ main{
 }
 
 
-.container {
+.cONtainer {
     margin-left: 75px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -118,28 +118,28 @@ main{
     max-width: 80%;
 }
 
-.bookmark-hero{
+.bOOkmark-hero{
     font-weight: 500;
     font-size: 30px;
     font-weight: bold;
     color: #252b46;
 }
 
-.description {
+.dEScription {
     color: hsl(229, 8%, 60%);
     line-height: 30px;
     font-weight: 400;
 
 }
 
-.btn1{
+.bTN1{
     text-transform: uppercase;
     color: #ffff;
     width: 2000px;
     font-size: small;
 }
 
-.btn2{
+.bTN2{
     background-color: hsl(231, 69%, 60%);
     color: #ffff;
     border: 0px;
@@ -147,13 +147,13 @@ main{
     font-size: 14px;
 }
 
-.btn2:hover{
+.bTN2:hover{
     color: hsl(231, 69%, 60%);
     background: #ffff;
     border: 2px solid hsl(231, 69%, 60%);
 }
 
-.btn3{
+.bTN3{
     background-color: rgb(247, 247, 247);
     color: hsl(229, 31%, 21%);    
     border: 0px;
@@ -163,13 +163,13 @@ main{
     font-size: 14px;
 }
 
-.btn3:hover{
+.bTN3:hover{
     background-color: #ffff;
     color: hsl(229, 31%, 21%);
     border: 2px solid hsl(229, 31%, 21%);
 }
 
-.border-curve{
+.bORder-curve{
     position: absolute;
     z-index: -1;
     right: 0;
@@ -183,7 +183,7 @@ main{
 
 @media (min-width: 768px) and (max-width: 1199px) {
    
-        nav {
+        nAV {
             width: 100%;
             padding: 25px 35px;
             color: hsl(229, 31%, 21%);
@@ -194,17 +194,17 @@ main{
             margin-left: 0px;
         }
 
-        .container{
+        .cONtainer{
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
         }
 
-        .sub-container{
+        .sUB-container{
             padding-top: 100px;
         }
 
-        .illustration-hero img{
+        .iLLustration-hero img{
             display: flex;
             flex-direction: row;
         }
@@ -212,23 +212,23 @@ main{
 
 @media (max-width:  967px) {
 
-        .hamburger{
+        .hAMmburger{
             display: block;
         }
 
-        .hamburger.active .hamburger-icon:nth-child(2){
+        .hAMburger.active .hamburger-icon:nth-child(2){
             opacity: 0;
         }
 
-        .hamburger.active .hamburger-icon:nth-child(1){
+        .hAMburger.active .hamburger-icon:nth-child(1){
             transform: translateY(8px) rotate(45deg);
         }
 
-        .hamburger.active .hamburger-icon:nth-child(3){
+        .hAMburger.active .hamburger-icon:nth-child(3){
             transform: translateY(-8px) rotate(-45deg);
         }
 
-        .nav-menu{
+        .nAV-menu{
             position: fixed;
             left: -100%;
             top: 70px;
@@ -239,21 +239,21 @@ main{
             transition: 0.3s;
         }
 
-        .nav-item{
+        .nAV-item{
             margin: 16px 0;
         }
 
-        nav-menu.active{
+        nAV-menu.active{
             left: 0;
         }
 
-        .nav-toggle{
+        .nAV-toggle{
                 display: block;
                 position: absolute;
                 top: 2.1rem;
         }
 
-        .navbar ul{
+        .nAVbar ul{
             height: 0;
             width: 100%;
             overflow: hidden;
@@ -269,7 +269,7 @@ main{
 
 @media (min-width: 481px) and (max-width:767px) {
 
-        nav {
+        nAV {
             width: 100%;
             padding: 25px 35px;
             color: hsl(229, 31%, 21%);
@@ -280,14 +280,14 @@ main{
             margin-left: 0px;
         }
 
-        .container{
+        .cONtainer{
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
             
         }
 
-        .sub-container{
+        .sUB-container{
             padding-top: 100px;
         }
 
@@ -295,7 +295,7 @@ main{
             margin-right: 0;
         }
 
-        .border-curve{
+        .bORder-curve{
             position: absolute;
             z-index: -1;
             right: 0;
@@ -306,14 +306,14 @@ main{
             border-bottom-left-radius: 200px;
         }
 
-        .illustration-hero img{
+        .iLLustration-hero img{
             width: 500px;
         }
 
 }
 
 @media (max-width: 600px) {
-        .border-curve{
+        .bORder-curve{
                     position: absolute;
                     z-index: -1;
                     right: 0;
@@ -324,12 +324,12 @@ main{
                     border-bottom-left-radius: 200px;
                 }
 
-        .illustration-hero img{
+        .iLLustration-hero img{
                     width: 500px;
                     margin-right: 100px;
                 }
 
-        .bookmark-hero{
+        .bOOkmark-hero{
             flex-basis: 100%;
             position: relative;
             text-align: center;
@@ -342,7 +342,7 @@ main{
 
 @media (max-width: 490px) {
 
-        .border-curve{
+        .bORder-curve{
                     position: absolute;
                     z-index: -1;
                     right: 0;
@@ -361,7 +361,7 @@ main{
 
 @media (max-width: 480px) {
 
-    nav {
+    nAV {
             width: 100%;
             padding: 25px 35px;
             color: hsl(229, 31%, 21%);
@@ -372,7 +372,7 @@ main{
             margin-left: 0px;
         }
 
-    .container{
+    .cONtainer{
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
@@ -384,12 +384,12 @@ main{
         }
 
 
-    .btn-group{
+    .bTN-group{
         display: flex;
         justify-content: center;
     }
 
-    .border-curve{
+    .bORder-curve{
             position: absolute;
             z-index: -1;
             left: 18px;
@@ -400,18 +400,18 @@ main{
             border-bottom-left-radius: 200px;
         }
 
-        .illustration-hero img{
+        .iLLustration-hero img{
             width: 450px;
         }
 
-     .container{
+     .cONtainer{
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
             
         }
 
-    .bookmark-hero{
+    .bOOkmark-hero{
         flex-basis: 70%;
         position: relative;
         /* margin-left: 50px; */
@@ -420,14 +420,14 @@ main{
         align-items: center;
     }
 
-    .description{
+    .dEScription{
         /* margin-left: 150px;
         justify-content: center;
         align-items: center; */
         text-align: center;
     }
 
-    .sub-container{
+    .sUB-container{
         display: flex;
         margin-left: 500px;
         width: 300%;
@@ -435,11 +435,11 @@ main{
         padding-top: 50px;
     }
 
-            .logo{
+            .lOGo{
             margin-right: 0px;
         }
 
-    .container {
+    .cONtainer {
         margin-left: 0;
         display: grid;
         grid-template-columns: 30% 30%;
@@ -450,7 +450,7 @@ main{
 }
 
 @media (max-width: 375px) {
-    .bookmark-hero{
+    .bOOkmark-hero{
         flex-basis: 100%;
         position: relative;
         text-align: center;
@@ -465,11 +465,11 @@ main{
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-    main{
+    mAIn{
         overflow-x: hidden;
     }
 
-    nav {
+    nAV {
             width: 100%;
             padding: 25px 35px;
             color: hsl(229, 31%, 21%);
@@ -481,13 +481,13 @@ main{
             overflow-x: hidden;
         }
 
-    .btn-group{
+    .bTN-group{
         display: flex;
         justify-content: center;
         overflow-x: hidden;
     }
 
-    .border-curve{
+    .bORder-curve{
             position: absolute;
             z-index: -1;
             left: 92px;
@@ -499,19 +499,19 @@ main{
             overflow-x: hidden;
         }
 
-        .illustration-hero img{
+        .iLLustration-hero img{
             width: 380px;
             margin-left: 80px;
             overflow-x: hidden;
         }
 
-     .container{
+     .cONtainer{
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
         }
 
-    .bookmark-hero{
+    .bOOkmark-hero{
         flex-basis: 100%;
         position: relative;
         text-align: center;
@@ -522,14 +522,14 @@ main{
         overflow-x: hidden;
     }
 
-    .description{
+    .dEScription{
         justify-content: center;
         align-items: center;
         text-align: center;
         overflow-x: hidden;
     }
 
-    .sub-container{
+    .sUBcontainer{
         display: flex;
         flex-direction: column;
         margin-left: 0;
@@ -539,7 +539,7 @@ main{
         overflow-x: hidden;
     }
 
-            .logo{
+            .lOGo{
             margin-right: 0px;
         }
 

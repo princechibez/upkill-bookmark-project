@@ -58,14 +58,14 @@ nAV {
     display: none;
 }
 
-nAV .navbar ul {
+nAV .nAVbar ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
 
-nAV .navbar ul li {
+nAV .nAVbar ul li {
     list-style: none;
     padding: 10px;
     text-transform: uppercase;
@@ -74,7 +74,7 @@ nAV .navbar ul li {
     font-size: small;
 }
 
-nAV .navbar ul li:hover{
+nAV .nAVbar ul li:hover{
     color: hsl(0, 94%, 66%);
     cursor: pointer;
 }

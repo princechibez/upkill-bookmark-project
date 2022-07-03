@@ -1,9 +1,9 @@
-const hamburger = document.querySelector(".hamburger-icon");
-const navMenu = document.querySelector(".nav-menu");
+const hAMburger = document.querySelector(".hAMburger-icon");
+const nAVMenu = document.querySelector(".nAV-menu");
 
 hamburger.addEventListener("click", () => {
-    navMenu.classList.add("active");
-    hamburger.classList.add("active");
+    nAVMenu.classList.add("active");
+    hAMburger.classList.add("active");
     // document.body.style.overflow = "hidden";
 })
 
